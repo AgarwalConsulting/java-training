@@ -1,0 +1,8 @@
+Outline
+-------
+
+- Maven
+
+- Git
+
+- Jenkins
