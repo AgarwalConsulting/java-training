@@ -1,10 +1,4 @@
-class Wing {
-  public void flap() {
-    System.out.println("flap flap");
-  }
-}
-
-class Bird {
+public class Bird {
   public String reproduction = "egg";
   public String outerCovering = "feather";
   private List<Wing> wings;
@@ -24,18 +18,5 @@ class Bird {
       wing.flap();
     }
     System.out.println("Flying down...");
-  }
-}
-
-class Eagle extends Bird {
-  public String name = "eagle";
-  public int lifespan = 15;
-}
-
-class TestBird {
-  public static void main(String []args) {
-    Eagle eagle = new Eagle();
-
-    eagle.flyUp();
   }
 }

@@ -1,6 +1,4 @@
-// Code from: https://raygun.com/blog/oop-concepts-java/
-
-class Animal {
+public class Animal {
   private String name;
   private double averageWeight;
   private int numberOfLegs;
@@ -25,19 +23,5 @@ class Animal {
   }
   public void setNumberOfLegs(int numberOfLegs) {
     this.numberOfLegs = numberOfLegs;
-  }
-}
-
-public class TestAnimal {
-  public static void main(String[] args) {
-    Animal myAnimal = new Animal();
-
-    myAnimal.setName("Eagle");
-    myAnimal.setAverageWeight(1.5);
-    myAnimal.setNumberOfLegs(2);
-
-    System.out.println("Name: " + myAnimal.getName());
-    System.out.println("Average weight: " + myAnimal.getAverageWeight() + "kg");
-    System.out.println("Number of legs: " + myAnimal.getNumberOfLegs());
   }
 }
