@@ -1,11 +1,11 @@
 # Design Patterns
 
-Java Design Patterns: https://java-design-patterns.com/patterns/factory-method/
+Java Design Patterns: https://java-design-patterns.com/
 
 ```bash
 mvn archetype:generate \
 -DgroupId=com.algogrit.java \
--DartifactId=strategy \
+-DartifactId=iterator \
 -DarchetypeArtifactId=maven-archetype-quickstart \
 -DinteractiveMode=false \
 -DarchetypeVersion=1.4
