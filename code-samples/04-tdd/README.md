@@ -2,7 +2,7 @@
 
 ## Instructions
 
-Refer Kata Catalog: https://github.com/AgarwalConsulting/kata-catalog/blob/master/katas
+Refer Kata Catalog: https://github.com/AgarwalConsulting/kata-catalog/blob/master/katas/String%20Calculator.md
 
 
 ### Create an empty maven project
