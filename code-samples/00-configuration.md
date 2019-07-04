@@ -21,7 +21,8 @@ Edit the xml, remove `http://` inside `<host>`:
 ### Step 2
 
 ```bash
-  cp /usr/share/maven/conf/settings.xml ~/.m2
+  mkdir -p ~/.m2/
+  cp /usr/share/maven/conf/settings.xml ~/.m2/
 ```
 
 ### Step 3
