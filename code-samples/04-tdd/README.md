@@ -9,7 +9,7 @@ Refer Kata Catalog: https://github.com/AgarwalConsulting/kata-catalog/blob/maste
 
 ```
   mvn archetype:generate \
-    -DgroupId=java \
+    -DgroupId=com.algogrit.java \
     -DartifactId=tdd-kata \
     -DarchetypeArtifactId=maven-archetype-quickstart \
     -DinteractiveMode=false \
