@@ -23,7 +23,7 @@ public class RunCucumberTest {
 }
 ```
 
-> $ cat src/test/java/com/algogrit/java/RunCucumberTest.java
+> $ cat src/test/java/com/algogrit/java/Stepdefs.java
 
 ```java
 package com.algogrit.java;
