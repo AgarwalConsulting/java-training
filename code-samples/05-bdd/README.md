@@ -71,7 +71,7 @@ public class Stepdefs {
 ```bash
 mvn archetype:generate \
   -DgroupId=com.algogrit.java \
-  -DartifactId=tdd-kata \
+  -DartifactId=bdd-kata \
   -DarchetypeGroupId=io.cucumber \
   -DarchetypeArtifactId=cucumber-archetype \
   -DarchetypeVersion=4.2.6.1 \
