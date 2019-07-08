@@ -19,3 +19,30 @@ Creating an empty maven project for source & target 1.7:
 * package - take the compiled code and package it in its distributable format, such as a JAR.
 * verify - run any checks to verify the package is valid and meets quality criteria.
 * install - install the package into the local repository, for use as a dependency in other projects locally.
+* deploy - Runs install in a CI/CD environment
+
+
+## Multi-module projects
+
+### Parent `pom.xml`
+
+```xml
+  <packaging>pom</packaging>
+
+  <modules>
+      <module>child1</module>
+      <module>child2</module>
+  </modules>
+```
+
+### Child `pom.xml`
+
+```xml
+  <packaging>jar/war</packaging>
+
+  <parent>
+      <groupId>parent-group-id</groupId>
+      <artifactId>parent-artifactId</artifactId>
+      <version>1.0</version>
+  </parent>
+```
