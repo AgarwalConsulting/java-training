@@ -19,8 +19,7 @@ Creating an empty maven project for source & target 1.7:
 * package - take the compiled code and package it in its distributable format, such as a JAR.
 * verify - run any checks to verify the package is valid and meets quality criteria.
 * install - install the package into the local repository, for use as a dependency in other projects locally.
-* deploy - Runs install in a CI/CD environment
-
+* deploy - Runs install in a CI/CD environment. Done in an integration or release environment, copies the final package to the remote repository for sharing with other developers and projects.
 
 ## Multi-module projects
 
