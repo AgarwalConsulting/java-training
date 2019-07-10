@@ -20,4 +20,5 @@ latest - default tag name
 * Register on https://hub.docker.com
 * Sign up using `docker login`
 * Create a simple "Hello, world!" container based on `alpine` linux
+  * This container prints `Hello, World!` when `run`
 * Push the image to `hub.docker.com` under your username in a `username/image-name` format
