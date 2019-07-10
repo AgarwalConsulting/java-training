@@ -24,3 +24,5 @@ latest - default tag name
   * Build using `docker build -f Dockerfile -t ${username}/${image-name}:${tag-name} .`
 * Push the image to `hub.docker.com` under your username in a `username/image-name` format
   * `docker push ${username}/${image-name}:${tag-name}`
+* Make sure to run the image in the person next to your computer
+  * `docker run ${username}/${image-name}`
