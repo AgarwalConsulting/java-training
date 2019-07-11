@@ -1,0 +1,15 @@
+version: '3'
+services:
+  html:
+    container_name: greeting-consumer
+    image: simple-nginx:latest
+    restart: always
+    ports:
+    - 8000:80
+
+  service:
+    container_name: greeting-producer
+    image: spring-greeting:latest
+    restart: always
+    ports:
+    - 8080:8080
