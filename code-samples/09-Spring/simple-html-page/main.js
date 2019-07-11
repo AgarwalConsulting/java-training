@@ -1,8 +1,8 @@
 $(function () {
   console.log("Loading main...");
   fetch("http://localhost:8080/greeting").then(function(response) {
-    var resBody = response.json();
-
+    return response.json();
+  }).then(function(resBody) {
     $('.greeting-id').append(resBody.id);
     $('.greeting-content').append(resBody.content);
 
