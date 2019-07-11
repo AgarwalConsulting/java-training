@@ -1,6 +1,6 @@
 # Spring
 
-* Clone `git@github.com:spring-guides/gs-rest-service.git`
+* Clone [spring REST service example](https://github.com/spring-guides/gs-rest-service)
 * `cd complete`
 * `mvn clean package`
 * `java -jar target/gs-rest-service-0.1.0.jar`
