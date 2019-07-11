@@ -1,1 +1,1 @@
-docker run --rm -it -p 8081:80 simple-nginx
+docker run --rm -it -p 8000:80 simple-nginx
