@@ -2,12 +2,12 @@ version: '3'
 services:
   html:
     container_name: greeting-consumer
-    image: simple-nginx:latest
+    build: ./simple-html-page
     restart: always
     ports:
     - 8000:80
 
-  service:
+  rest:
     container_name: greeting-producer
     image: spring-greeting:latest
     restart: always
