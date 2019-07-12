@@ -22,6 +22,8 @@ curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/miniku
 
 sudo install minikube /usr/local/bin
 
+rm minikube
+
 echo "Installation done! Please verfiy by running..."
 echo "kubectl version"
 echo "minikube version"
