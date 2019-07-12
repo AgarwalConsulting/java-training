@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-docker build -t spring-greeting:latest .
+docker build -t gauravagarwalr/spring-greeting:latest .
+docker push gauravagarwalr/spring-greeting:latest

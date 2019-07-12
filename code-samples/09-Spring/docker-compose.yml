@@ -1,15 +1,15 @@
 version: '3'
 services:
   html:
-    container_name: greeting-consumer
+    container_name: greeting-client
     build: ./simple-html-page
     restart: always
     ports:
     - 8000:80
 
   rest:
-    container_name: greeting-producer
-    image: spring-greeting:latest
+    container_name: greeting-server
+    image: gauravagarwalr/spring-greeting:latest
     restart: always
     ports:
     - 8080:8080
