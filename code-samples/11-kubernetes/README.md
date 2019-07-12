@@ -7,8 +7,12 @@
 ## Setup
 
 ```bash
-  ./install.sh
+  curl https://raw.githubusercontent.com/AgarwalConsulting/java-training/master/code-samples/11-kubernetes/install.sh -o /tmp/install.sh
+  chmod 744 /tmp/install.sh
+  /tmp/install.sh
 ```
+
+Or clone the repo and run `./install.sh`
 
 ## Getting Started
 
