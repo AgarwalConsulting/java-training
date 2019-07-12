@@ -19,6 +19,9 @@ Or clone the repo and run `./install.sh`
 ```bash
   minikube start --vm-driver=kvm2
 
+  # ./source.sh
+  export NO_PROXY=$no_proxy,$(minikube ip)
+
   kubectl version
 ```
 
