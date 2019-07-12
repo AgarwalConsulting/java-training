@@ -37,5 +37,5 @@ chmod +x docker-machine-driver-kvm2
 sudo mv docker-machine-driver-kvm2 /usr/local/bin/
 
 echo "Installation done! Please verfiy by running..."
-echo "kubectl version"
-echo "minikube version"
+echo "  minikube version"
+echo "  kubectl version"
