@@ -2,14 +2,6 @@
 
 set -e
 
-echo "Installing docker-compose..."
-
-sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-
-sudo chmod +x /usr/local/bin/docker-compose
-
-sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
-
 echo "Installing kubectl..."
 
 curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
@@ -29,3 +21,7 @@ echo "Installing minikube..."
 curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64 && chmod +x minikube
 
 sudo install minikube /usr/local/bin
+
+echo "Installation done! Please verfiy by running..."
+echo "kubectl version"
+echo "minikube version"
