@@ -15,22 +15,22 @@ mvn archetype:generate \
 
 Refer: http://sparkjava.com/tutorials/maven-setup
 
+### Add the following `dependency` inside `dependencies`
+
 ```xml
-  <dependencies>
-    <dependency>
-        <groupId>com.sparkjava</groupId>
-        <artifactId>spark-core</artifactId>
-        <version>2.5</version>
-    </dependency>
-    <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-simple</artifactId>
-        <version>1.7.21</version>
-    </dependency>
-  </dependencies>
+  <dependency>
+      <groupId>com.sparkjava</groupId>
+      <artifactId>spark-core</artifactId>
+      <version>2.5</version>
+  </dependency>
+  <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-simple</artifactId>
+      <version>1.7.21</version>
+  </dependency>
 ```
 
-Also modify:
+### Also modify:
 
 ```xml
   <maven.compiler.source>1.8</maven.compiler.source>
