@@ -1,40 +1,9 @@
-# Introduction to SOAP API
+# SOAP API
 
----
+## How-to
 
+https://java2blog.com/soap-web-service-example-in-java-using/
 
-Step 1:
-Create a new Java Project in Eclipse.
+## Examples
 
----
-
-Step 2:
-Open your terminal in the same active directory and type `wsimport`
-
-(Note: if not available, set the `JAVA_HOME` correctly and try again)
-
-```
- wsimport -keep src http://wsgeoip.lavasoft.com/ipservice.asmx?WSDL
-```
-
----
-
-Step 3:  Copy the downloaded files into your repo using the same package name.
-
----
-
-Step 4:
-
-Code to use the `getIPLocation` function
-
-
-```
-GeoIPService geoIpService = new GeoIPService();
-GeoIPServiceSoap geoIpServiceSoap = geoIpService.getGeoIPServiceSoap();
-String result = geoIpServiceSoap.getIpLocation("106.51.16.172");
-System.out.println(result);
-```
-
-## Credits
-
-* https://github.com/yogeshvar/SoapAPIExample
+* http://www.dneonline.com/calculator.asmx
