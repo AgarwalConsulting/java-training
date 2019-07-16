@@ -37,6 +37,16 @@ public class App {
             return gson.toJson(newStudent);
         });
 
+        put("/students/:id", (req, res) -> {
+            Student updatedStudent = gson.fromJson(req.body(), Student.class);
+            Integer studentId = Integer.parseInt(req.params(":id"));
+
+            updatedStudent.setId(studentId);
+            students.put(studentId, updatedStudent);
+
+            return gson.toJson(updatedStudent);
+        });
+
         delete("/students/:id", (req, res) -> {
             Integer studentId = Integer.parseInt(req.params(":id"));
 

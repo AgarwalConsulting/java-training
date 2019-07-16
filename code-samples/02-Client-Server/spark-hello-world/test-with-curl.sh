@@ -18,8 +18,15 @@ curl 'http://localhost:4567/students/1'
 # PUT
 printf "\n\nTesting... PUT /students/1: \n"
 curl --header "Content-Type: application/json" \
+  --request PUT \
+  --data '{"firstName": "Gaurav", "lastName": "Agarwal", "phoneNumber": "+91876543210"}' \
+  http://localhost:4567/students/1
+
+# PATCH
+printf "\n\nTesting... PATCH /students/1: \n"
+curl --header "Content-Type: application/json" \
   --request PATCH \
-  --data '{"firstName": "Gaurav", "lastName": "Agarwal", "phoneNumber": "1234567890"}' \
+  --data '{"phoneNumber": "+91876543210"}' \
   http://localhost:4567/students/1
 
 # DELETE
