@@ -45,3 +45,8 @@ Creating an empty maven project for source & target 1.7:
       <version>1.0</version>
   </parent>
 ```
+
+## Exercises
+
+* https://github.com/mattpwest/Maven-Exercises
+* https://github.com/sit/maven-workshop
