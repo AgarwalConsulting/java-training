@@ -10,7 +10,7 @@ import com.google.gson.Gson;
 public class App {
     public static void main(String[] args) {
         Gson gson = new Gson();
-        AtomicInteger counter = new AtomicInteger();
+        AtomicInteger counter = new AtomicInteger(1);
         HashMap<Integer, Student> students = new HashMap<Integer, Student>();
 
         get("/students", (req, res) -> gson.toJson(students.values()));
