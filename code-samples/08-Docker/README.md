@@ -26,3 +26,7 @@ latest - default tag name
   * `docker push ${username}/${image-name}:${tag-name}`
 * Make sure to run the image in the person next to your computer
   * `docker run ${username}/${image-name}`
+
+## Other Resources
+
+* Building a docker-like container from scratch using Go: [Video](https://www.youtube.com/watch?v=MHv6cWjvQjM&t=1316s), [Code](https://github.com/lizrice/containers-from-scratch)
