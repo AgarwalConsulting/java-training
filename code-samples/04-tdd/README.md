@@ -4,7 +4,6 @@
 
 Refer Kata Catalog: https://github.com/AgarwalConsulting/kata-catalog/blob/master/katas/String%20Calculator.md
 
-
 ### Create an empty maven project
 
 ```
@@ -15,3 +14,10 @@ Refer Kata Catalog: https://github.com/AgarwalConsulting/kata-catalog/blob/maste
     -DinteractiveMode=false \
     -DarchetypeVersion=1.4
 ```
+
+## Rules
+
+- Don't write any production (`src/main/...`) code, until you have a corresponding failing test
+- For each step in the kata, write a simple test in `src/test/...`, add `assert*` statements to it.
+- Run your tests, after you have written the production code
+- Refactor
