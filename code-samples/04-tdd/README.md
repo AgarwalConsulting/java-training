@@ -21,3 +21,7 @@ Refer Kata Catalog: https://github.com/AgarwalConsulting/kata-catalog/blob/maste
 - For each step in the kata, write a simple test in `src/test/...`, add `assert*` statements to it.
 - Run your tests, after you have written the production code
 - Refactor
+
+## References
+
+- https://junit.org/junit4/javadoc/latest/org/junit/Assert.html
