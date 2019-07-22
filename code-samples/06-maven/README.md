@@ -14,7 +14,7 @@ Creating an empty maven project for source & target 1.7:
 ## Default Lifecycle
 
 * validate - validate the project is correct and all necessary information is available.
-* compile - compile the source code of the project.
+* compile - compile the source code of the project into `target/classes`
 * test - run tests using a suitable unit testing framework. These tests should not require the code be packaged or deployed.
 * package - take the compiled code and package it in its distributable format, such as a JAR.
 * verify - run any checks to verify the package is valid and meets quality criteria.
