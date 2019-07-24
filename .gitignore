@@ -32,3 +32,4 @@ hs_err_pid*
 
 target/
 code-samples/08-Docker/hello-go/hello-go
+code-samples/08-Docker/hello-go/hello
