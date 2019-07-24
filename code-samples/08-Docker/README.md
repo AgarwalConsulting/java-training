@@ -47,8 +47,8 @@ docker run hello-world:latest
 
 * Write your own `Dockerfile` [Ref: https://docs.docker.com/engine/reference/builder]
   - Refer [hello-go/Dockerfile](https://github.com/AgarwalConsulting/java-training/blob/master/code-samples/08-Docker/hello-go/Dockerfile)
-* `docker build -t ${image-name}:${tag-name} .`
-* `docker run ${image-name}`
+* `docker build -t <image-name>:<tag-name> .`
+* `docker run <image-name>`
 
 Dockerfile - default name for docker file
 latest - default tag name
@@ -59,11 +59,11 @@ latest - default tag name
 * Sign up using `docker login`
 * Create a simple "Hello, world!" container based on `alpine` linux
   * This container prints `Hello, World!` when `run`
-  * Build using `docker build -f Dockerfile -t ${username}/${image-name}:${tag-name} .`
+  * Build using `docker build -f Dockerfile -t <username>/<image-name>:<tag-name> .`
 * Push the image to `hub.docker.com` under your username in a `username/image-name` format
-  * `docker push ${username}/${image-name}:${tag-name}`
+  * `docker push <username>/<image-name>:<tag-name>`
 * Make sure to run the image in the person next to your computer
-  * `docker run ${username}/${image-name}`
+  * `docker run <username>/<image-name>`
 
 ## Other Resources
 
