@@ -22,8 +22,15 @@ I have built in an application in a [microservice architecture](https://microser
 ```
   # Service B
 
-  Java process
+  Java 1.2 process
   Postgres 9
+```
+
+```
+  # Service C
+
+  Java 9 process
+  Postgres 10
 ```
 
 How do I run both of these services on my machine?
