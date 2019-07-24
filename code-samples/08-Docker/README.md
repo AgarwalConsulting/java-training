@@ -1,5 +1,35 @@
 # Docker
 
+## Problem
+
+I have a machine with the following specs:
+
+```
+  64 CPU cores
+  128 GB RAM
+  1 TB SSD
+```
+
+I have built in an application in a [microservice architecture](https://microservices.io/). With the following specs:
+
+```
+  # Service A
+
+  Node.js process
+  Postgres 10
+```
+
+```
+  # Service B
+
+  Java process
+  Postgres 9
+```
+
+How do I run both of these services on my machine?
+
+## Installation Check
+
 Verify installation with:
 
 ```bash
