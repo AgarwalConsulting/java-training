@@ -8,10 +8,6 @@ Verify installation with:
 docker run hello-world:latest
 ```
 
-## Simple Problem
-
-Create your own `hello-java` example similar to `hello-go`!
-
 ## Steps to create your own image and run a container
 
 * Write your own `Dockerfile` [Ref: https://docs.docker.com/engine/reference/builder]
@@ -21,6 +17,10 @@ Create your own `hello-java` example similar to `hello-go`!
 
 Dockerfile - default name for docker file
 latest - default tag name
+
+## Simple Problem
+
+Create your own `hello-java` example similar to `hello-go`!
 
 ## Other Resources
 
