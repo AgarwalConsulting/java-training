@@ -3,7 +3,7 @@
 * `cd gs-rest-service`
 * `mvn clean package`
 * `java -jar target/gs-rest-service-0.1.0.jar`
-* Access `http://localhost:8080/greeting`
+* Access <http://localhost:8080/greeting>
 
 ## Task
 
