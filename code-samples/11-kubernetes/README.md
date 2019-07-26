@@ -33,3 +33,7 @@ Workshops:
 
 * [Basic](https://github.com/gsaslis/kubernetes-basics-workshop)
 * [Advanced](https://github.com/GoogleCloudPlatform/kubernetes-workshops)
+
+Videos:
+
+* [Kubernetes 101 Workshop](https://www.youtube.com/watch?v=H-FKBoWTVws)
