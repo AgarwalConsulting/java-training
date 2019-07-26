@@ -27,7 +27,7 @@ Or clone the repo and run `./install.sh`
 
 ## Resources
 
-In-browser Hands-on: [Playground](https://kubernetes.io/docs/tutorials/)
+In-browser Hands-on: [Playground](https://www.katacoda.com/courses/kubernetes)
 
 Workshops:
 
