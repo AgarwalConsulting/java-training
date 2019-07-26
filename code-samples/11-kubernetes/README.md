@@ -4,6 +4,8 @@
 
 ![Kubernetes](https://upload.wikimedia.org/wikipedia/commons/b/be/Kubernetes.png)
 
+[Glossary](https://kubernetes.io/docs/reference/glossary)
+
 ## Setup
 
 ```bash
@@ -16,6 +18,8 @@ Or clone the repo and run `./install.sh`
 
 ## Getting Started
 
+### Single node cluster using minikube
+
 ```bash
   minikube start --vm-driver=kvm2
 
@@ -23,6 +27,15 @@ Or clone the repo and run `./install.sh`
   export NO_PROXY=$no_proxy,$(minikube ip)
 
   kubectl version
+```
+
+### Multi node cluster using Dind
+
+[Docker in Docker](https://github.com/kubernetes-sigs/kubeadm-dind-cluster) Cluster.
+
+```bash
+  export DIND_HTTP_PROXY=http://10.19.16.165:8080
+  export DIND_HTTPS_PROXY=http://10.19.16.165:8080
 ```
 
 ## Resources
