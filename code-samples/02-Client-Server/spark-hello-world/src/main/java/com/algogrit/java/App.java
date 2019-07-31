@@ -38,8 +38,14 @@ public class App {
         });
 
         put("/students/:id", (req, res) -> {
-            Student updatedStudent = gson.fromJson(req.body(), Student.class);
             Integer studentId = Integer.parseInt(req.params(":id"));
+
+            if (students.get(studentId) == null ) {
+                res.status(404);
+                return null;
+            }
+
+            Student updatedStudent = gson.fromJson(req.body(), Student.class);
 
             updatedStudent.setId(studentId);
             students.put(studentId, updatedStudent);
