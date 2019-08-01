@@ -1,8 +1,13 @@
 # SOAP API
 
+## Introduction
+
+* https://www.baeldung.com/jax-ws
+
 ## How-to
 
-https://java2blog.com/soap-web-service-example-in-java-using/
+* https://spring.io/guides/gs/producing-web-service/#scratch
+* https://docs.oracle.com/javaee/6/tutorial/doc/bnayn.html
 
 ## Examples
 
