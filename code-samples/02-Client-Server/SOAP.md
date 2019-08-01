@@ -4,10 +4,6 @@
 
 * https://www.baeldung.com/jax-ws
 
-## How-to
-
-* https://spring.io/guides/gs/producing-web-service/#scratch
-
 ## How-to detailed
 
 * `mkdir soap-example; cd soap-example`
@@ -118,6 +114,19 @@
     </xs:simpleType>
 </xs:schema>
 ```
+
+* Add the java files from <https://spring.io/guides/gs/producing-web-service/#scratch>
+
+    * `src/main/java/hello/Application.java`
+    * `src/main/java/hello/CountryEndpoint.java`
+    * `src/main/java/hello/CountryRepository.java`
+    * `src/main/java/hello/WebServiceConfig.java`
+
+* Run `mvn clean package`
+
+* Run `java -jar target/gs-producting-web-service-0.1.0.jar`
+
+* Wait for further instructions!
 
 ## Examples
 
