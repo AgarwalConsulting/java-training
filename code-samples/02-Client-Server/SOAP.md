@@ -7,7 +7,6 @@
 ## How-to
 
 * https://spring.io/guides/gs/producing-web-service/#scratch
-* https://docs.oracle.com/javaee/6/tutorial/doc/bnayn.html
 
 ## How-to detailed
 
@@ -123,3 +122,7 @@
 ## Examples
 
 * http://www.dneonline.com/calculator.asmx
+
+## Other Resources
+
+* https://docs.oracle.com/javaee/6/tutorial/doc/bnayn.html
