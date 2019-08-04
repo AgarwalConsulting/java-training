@@ -43,7 +43,7 @@ chmod +x kind
 sudo install kind /usr/local/bin
 rm kind
 
-echo "Installation done! Please verfiy by running..."
+echo "Installation done! Please verify by running..."
 echo "  minikube version"
 echo "  kubectl version"
 echo "  kind version"
