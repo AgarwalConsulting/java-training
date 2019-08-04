@@ -36,6 +36,14 @@ curl -LO https://storage.googleapis.com/minikube/releases/latest/docker-machine-
 chmod +x docker-machine-driver-kvm2
 sudo mv docker-machine-driver-kvm2 /usr/local/bin/
 
+echo "Installing kind..."
+
+curl -Lo kind https://github.com/kubernetes-sigs/kind/releases/download/v0.4.0/kind-linux-amd64
+chmod +x kind
+sudo install kind /usr/local/bin
+rm kind
+
 echo "Installation done! Please verfiy by running..."
 echo "  minikube version"
 echo "  kubectl version"
+echo "  kind version"
