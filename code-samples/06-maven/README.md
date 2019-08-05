@@ -11,6 +11,34 @@ Creating an empty maven project for source & target 1.7:
   -DarchetypeVersion=1.4
 ```
 
+## Responsibilities
+
+* Project Structuring
+
+```
+  src
+  |
+  |--- main
+        |
+        |--- java
+        |
+        |___ resources
+  |
+  |___ test
+        |
+        |--- java
+        |
+        |___ resources
+  pom.xml
+```
+
+* Dependency management and resolution
+
+* Building, compiling & packaging
+
+* Additional configuration based on plugins
+
+
 ## Default Lifecycle
 
 * validate - validate the project is correct and all necessary information is available.
