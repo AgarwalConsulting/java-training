@@ -16,6 +16,7 @@ Gremlins Repo: https://github.com/AgarwalConsulting/gremlins
 git config --global color.ui true
 git config --global user.name 'Gaurav Agarwal'
 git config --global user.email 'algogrit@gmail.com'
+git config --global push.default current
 ```
 
 ## Resolutions
