@@ -8,7 +8,7 @@ I have a machine with the following specs:
   1 TB SSD
 ```
 
-I have built in an application in a [microservice architecture](https://microservices.io/). With the following specs:
+I have built an application in a [microservice architecture](https://microservices.io/). With the following specs:
 
 ```
   # Service A
@@ -31,4 +31,4 @@ I have built in an application in a [microservice architecture](https://microser
   Postgres 10
 ```
 
-How do I run both of these services on my machine?
+How do I run all of these services on my machine?
