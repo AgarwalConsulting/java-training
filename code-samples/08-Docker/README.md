@@ -15,8 +15,9 @@ docker run hello-world:latest
 * `docker build -t <image-name>:<tag-name> .`
 * `docker run <image-name>`
 
-Dockerfile - default name for docker file
-latest - default tag name
+`Dockerfile` - default name for docker file
+
+`latest` - default tag name
 
 ## Simple Problem
 
