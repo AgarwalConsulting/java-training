@@ -1,6 +1,8 @@
-FROM golang:alpine
+FROM golang:alpine AS builder
 WORKDIR /app
 COPY ./hello.go /app
 RUN go build hello.go
-RUN ls
-ENTRYPOINT ["/app/hello"]
+
+FROM scratch
+COPY --from=builder /app/hello /
+CMD ["/hello"]
