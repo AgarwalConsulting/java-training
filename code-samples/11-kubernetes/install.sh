@@ -43,21 +43,6 @@ chmod +x kind
 sudo install kind /usr/local/bin
 rm kind
 
-echo "Installing go & kubernetes source..."
-wget https://dl.google.com/go/go1.12.7.linux-amd64.tar.gz
-tar -xzf go1.12.7.linux-amd64.tar.gz
-mv go /usr/local
-
-mkdir -p ~/.go
-echo >> .bash_profile
-echo 'export GOPATH=$HOME/.go' >> .bash_profile
-echo 'export PATH=$GOPATH/bin:$PATH' >> .bash_profile
-echo >> .bashrc
-echo 'export GOPATH=$HOME/.go' >> .bashrc
-echo 'export PATH=$GOPATH/bin:$PATH' >> .bashrc
-
-go get -d k8s.io/kubernetes
-
 echo "Installation done! Please verify by running..."
 echo "  minikube version"
 echo "  kubectl version"
