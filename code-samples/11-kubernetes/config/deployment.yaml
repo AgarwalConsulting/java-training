@@ -2,13 +2,13 @@
  apiVersion: extensions/v1beta1
  kind: Deployment
  metadata:
-   name: kubernetes-bootcamp
+   name: gs-rest
  spec:
    replicas: 2
    template:
      spec:
        containers:
-         - name: kubernetes-bootcamp
-           image: gcr.io/google-samples/kubernetes-bootcamp:v1
+         - name: spring-greeting
+           image: gauravagarwalr/spring-greeting:latest
            ports:
              - containerPort: 8080
