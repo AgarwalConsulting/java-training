@@ -2,9 +2,6 @@
 
 [Kubernetes](https://kubernetes.io/) is a container orchestration platform at scale.
 
-![Kubernetes](https://upload.wikimedia.org/wikipedia/commons/b/be/Kubernetes.png)
-
-[Glossary](https://kubernetes.io/docs/reference/glossary)
 
 ## Setup
 
@@ -34,6 +31,25 @@ Or clone the repo and run `./install.sh`
 [Kubernetes in Docker](https://github.com/kubernetes-sigs/kind/)
 
 Follow steps in [setup-proxy.md](https://github.com/AgarwalConsulting/java-training/blob/master/code-samples/11-kubernetes/setup-proxy.md)
+
+```bash
+  kind create cluster --config kind-config.yml
+```
+
+## Outline
+
+![Kubernetes](https://upload.wikimedia.org/wikipedia/commons/b/be/Kubernetes.png)
+
+[Glossary](https://kubernetes.io/docs/reference/glossary)
+
+* Namespace
+* Control Plane
+* Creating your first deployment
+
+  `kubectl create deployment gs-rest --image=gauravagarwalr/spring-greeting:latest`
+
+* Setup Kubernetes [dashboard](https://github.com/kubernetes/dashboard)
+* Creating a guestbook service
 
 ## Resources
 
