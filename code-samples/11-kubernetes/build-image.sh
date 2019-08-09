@@ -14,4 +14,3 @@ git clone https://github.com/kubernetes/kubernetes.git ~/.go/src/k8s.io/kubernet
 echo "Creating kind cluster..."
 # kind delete cluster
 kind build node-image
-kind create cluster --config kind-config.yml

@@ -19,10 +19,7 @@ Or clone the repo and run `./install.sh`
 ```bash
   minikube start --vm-driver=kvm2
 
-  # ./source.sh
-  export NO_PROXY=$no_proxy,$(minikube ip)
-
-  kubectl version
+  . source.sh
 ```
 
 ### Multi node cluster using Kind
@@ -32,7 +29,8 @@ Or clone the repo and run `./install.sh`
 Follow steps in [setup-proxy.md](https://github.com/AgarwalConsulting/java-training/blob/master/code-samples/11-kubernetes/setup-proxy.md)
 
 ```bash
-  kind build node-image
+  ./build-image.sh
+
   kind create cluster --config kind-config.yml
 ```
 
