@@ -18,7 +18,7 @@
    {
      "httpProxy": "http://10.19.16.165:8080",
      "httpsProxy": "http://10.19.16.165:8080",
-     "noProxy": "172.17.0.0/16"
+     "noProxy": "localhost,127.0.0.0/8,::1"
    }
  }
 }

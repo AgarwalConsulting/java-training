@@ -2,7 +2,6 @@
 
 [Kubernetes](https://kubernetes.io/) is a container orchestration platform at scale.
 
-
 ## Setup
 
 ```bash
@@ -33,6 +32,7 @@ Or clone the repo and run `./install.sh`
 Follow steps in [setup-proxy.md](https://github.com/AgarwalConsulting/java-training/blob/master/code-samples/11-kubernetes/setup-proxy.md)
 
 ```bash
+  kind build node-image
   kind create cluster --config kind-config.yml
 ```
 
