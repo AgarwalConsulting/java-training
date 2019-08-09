@@ -33,10 +33,7 @@ Or clone the repo and run `./install.sh`
 
 [Kubernetes in Docker](https://github.com/kubernetes-sigs/kind/)
 
-```bash
-  export HTTP_PROXY=http://10.19.16.165:8080
-  export HTTPS_PROXY=http://10.19.16.165:8080
-```
+Follow steps in [setup-proxy.md](https://github.com/AgarwalConsulting/java-training/blob/master/code-samples/11-kubernetes/setup-proxy.md)
 
 ## Resources
 
