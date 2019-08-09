@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 # Setup kind cluster
 kind create cluster --config kind-config.yml
 export KUBECONFIG="$(kind get kubeconfig-path)"
